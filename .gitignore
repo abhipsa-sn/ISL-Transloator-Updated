@@ -1,0 +1,43 @@
+# Python virtual environments
+
+venv/
+.venv/
+ENV/
+env/
+/env
+
+# Python bytecode and cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# IDE and editor settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+
+*.log
+*.tmp
+# Training datasets and generated arrays
+data/processed/
+data/raw/
+data_processed_backup_5class/
+
+# Backup models
+models_backup_5class/
